@@ -30,3 +30,25 @@ print(ds["tax_law"][0]["question"])
 
 The experiments that use this dataset are in the
 [`code`](https://github.com/joaopaulopresa/code) repository.
+
+## Paper
+
+The dataset was introduced in the paper below. If you use it, please cite:
+
+> João Paulo Cavalcante Presa, Celso Gonçalves Camilo Junior, Sávio Salvarino Teles de Oliveira.
+> **Evaluating Large Language Models for Tax Law Reasoning.** In: *Intelligent Systems* (BRACIS 2024),
+> Lecture Notes in Computer Science, Springer, 2025, pp. 460–474.
+> https://doi.org/10.1007/978-3-031-79029-4_32
+
+```bibtex
+@inproceedings{presa2025taxlaw,
+  author    = {Presa, Jo{\~a}o Paulo Cavalcante and Camilo Junior, Celso Gon{\c{c}}alves and Oliveira, S{\'a}vio Salvarino Teles de},
+  title     = {Evaluating Large Language Models for Tax Law Reasoning},
+  booktitle = {Intelligent Systems},
+  series    = {Lecture Notes in Computer Science},
+  publisher = {Springer Nature Switzerland},
+  year      = {2025},
+  pages     = {460--474},
+  doi       = {10.1007/978-3-031-79029-4_32}
+}
+```
